@@ -15,7 +15,7 @@ household <- filter(household, Date==as.Date("2007-02-01") |
                         Date==as.Date("2007-02-02"))
 
 ## Opening graphics device PNG
-png("plot1.png", width=480, height=480)
+png("figure/plot1.png", width=480, height=480)
 
 ## Producing plot
 hist(household$Global_active_power,

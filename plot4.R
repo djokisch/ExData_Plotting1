@@ -15,7 +15,7 @@ household <- filter(household, Date==as.Date("2007-02-01") |
                         Date==as.Date("2007-02-02"))
 
 ## Opening graphics device PNG
-png("plot4.png", width=480, height=480)
+png("figure/plot4.png", width=480, height=480)
 
 ## setting up 2x2 plot
 par(mfrow=c(2,2))
