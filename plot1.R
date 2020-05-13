@@ -1,4 +1,5 @@
 library(dplyr)
+library(lubridate)
 ## Reading in "household_power_consumption.txt"
 household <- read.table("household_power_consumption.txt", sep=";",
                         stringsAsFactors = FALSE, header=TRUE, na.strings = "?")
